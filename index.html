@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- bootstrap cdn  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  
+  <title>Hot-Gadget</title>
+</head>
+<body>
+  <nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+     <img src="images/logo.png" alt="">  
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav  mb-2 mb-lg-0 fw-light text-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#products">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link " aria-current="page" href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-bell-fill"></i>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  </nav>
+
+  <header>
+
+    <div class="container-fluid bg">
+      <div class="container ">
+
+         <!-- Carousel item start -->
+
+         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <!-- written side  -->
+        <div class="col-lg-6 d-flex align-items-center ">
+          <div>
+            <h1 class="display-4 fw-bold">Mackbook Pro</h1>
+          <p class="fw-light py-4">
+            Contrary to popular belief,Lorem ipsum is not simply <br>
+            random text.It has roots in a piece of classical Latin literature.
+          </p>
+          <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+
+          </div>
+          
+        </div>
+        <!-- img side  -->
+        <div class="col-lg-6 bg-image">
+          <img src="images/banner-products/product-1.png" class="img-fluid" alt="">
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <!-- written side  -->
+        <div class="col-lg-6 d-flex align-items-center ">
+          <div>
+            <h1 class="display-4 fw-bold">Google Home Mini</h1>
+          <p class="fw-light py-4">
+            Contrary to popular belief,Lorem ipsum is not simply <br>
+            random text.It has roots in a piece of classical Latin literature.
+          </p>
+          <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+
+          </div>
+          
+        </div>
+        <!-- img side  -->
+        <div class="col-lg-6 bg-image">
+          <img src="images/banner-products/slider-1.png" class="img-fluid" alt="">
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <!-- written side  -->
+        <div class="col-lg-6 d-flex align-items-center ">
+          <div>
+            <h1 class="display-4 fw-bold">JBL! Sound Bar</h1>
+          <p class="fw-light py-4">
+            Contrary to popular belief,Lorem ipsum is not simply <br>
+            random text.It has roots in a piece of classical Latin literature.
+          </p>
+          <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+
+          </div>
+          
+        </div>
+        <!-- img side  -->
+        <div class="col-lg-6 bg-image">
+          <img src="images/banner-products/slider-3.png" class="img-fluid" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+         <!-- Carousel item end  -->
+      
+    </div>
+
+    </div>
+    
+  </header>
+
+   <!-- product section  -->
+  <main>
+    <div class="container py-5" id="products">
+      <h2 class="my-4">Smartphone</h2>
+      <h5 class="text-warning text-end my-4 fw-normal">See All</h5>
+      <div class="row g-5">
+
+        <!-- card 1  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/phone/phone-2.png" class="img-fluid" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Iphone 12pro</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$999</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+         <!--  mobile card 2  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/phone/phone-3.png"  class="img-fluid" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Samsung Galaxy 10+</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$799</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+         <!-- mobile card 3  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/phone/phone-1.png" class="img-fluid" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Xiomi note 8</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$499</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+
+    <!-- laptop section  -->
+
+    <section>
+      <div class="container py-5">
+      <h2 class="my-4">Laptop</h2>
+      <h5 class="text-warning text-end my-4 fw-normal">See All</h5>
+      <div class="row g-5">
+
+        <!--  laptop card 1  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/laptop/product-1.png" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Asus Vivobook</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$999</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+         <!-- laptop card 2  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/laptop/product-2.png" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Razer Blade 15</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$2799</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+         <!-- laptop card 3  -->
+        <div class="col-lg-4 mx-auto product-card shadow-lg">
+          <div class="pt-4">
+            <div class="d-flex justify-content-center">
+              <img src="images/laptop/product-3.png" alt="">
+            </div>
+            
+          <h3 class="text-center mt-3">Xaiomi Notebook Pro</h3>
+          <p class="fw-light px-3 my-4">This is a wider card with supporting text 
+             below as a natural lead-in to additional content. 
+             This content is a little bit longer.</p>
+          </div>
+             <div>
+              <h2 class="text-center ">$1299</h2>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark fw-light">BUY NOW <i class="bi bi-arrow-right"></i></button>
+            </div>
+             </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+    </section>
+     <!-- catagories section  -->
+
+     <section>
+       <div class="container py-5">
+          <h2 class="my-4 text-center">Catagories</h2>
+          <div class="d-flex justify-content-center pb-5">
+         <div class="rounded-3" style="width: 120px; height: 8px; background-color: #FF9C35;"> </div>
+          </div>
+         <div class="row">
+           <div class="col-lg-3 d-flex align-items-center justify-content-center">
+             <div class="catogory-card shadow-lg d-flex justify-content-center align-items-center">
+               <div>
+               <div>
+               <img src="images/Categories/bag.png" class="img-fluid" alt="">
+             </div>
+             <p class="text-center mt-2">Bag</p>
+            </div>
+             </div> 
+          </div>
+             <div class="col-lg-3 d-flex justify-content-center align-items-center">
+               <div>
+                <div class="catogory-card my-5   shadow-lg d-flex justify-content-center align-items-center">
+               <div>
+               <div>
+               <img src="images/Categories/perfume.png" class="img-fluid" alt="">
+             </div>
+             <p class="text-center mt-2">Perfume</p>
+            </div>
+             </div> 
+
+             <!-- card 2 -->
+                 <div class="catogory-card my-5  shadow-lg d-flex justify-content-center align-items-center">
+               <div>
+               <div>
+               <img src="images/Categories/shoe.png" class="img-fluid" alt="">
+             </div>
+             <p class="text-center mt-2">Shoe</p>
+            </div>
+             </div> 
+               </div>
+                 
+               </div>
+             <!-- cart right side pic  -->
+           <div class="col-lg-6">
+             <img src="images/Categories/pale-order.png" class="img-fluid" alt="">
+           </div>
+         </div>
+     </section>
+  </main>
+
+
+
+  <footer>
+			<div class="container-fluid" id="contact">
+				<div class="container text-light pt-5">
+					<div class="row py-5 g-4">
+						<div class="col-lg-6 col-12">
+							<p>
+								Millions of people of all ages and from around <br />
+								the world are improving their lives with us
+							</p>
+						</div>
+						<div class="col-lg-2 col-6" style="list-style: none">
+							<h5>Laptop</h5>
+							<li>Apple macbook12</li>
+							<li>Apple macbook pro12</li>
+							<li>Apple macbook20</li>
+							<li>Apple macbookpro20</li>
+							<li>Apple Engineering</li>
+						</div>
+						<div class="col-lg-2 col-6" style="list-style: none">
+							<h5>Mobile</h5>
+							<li>Iphone 12 Pro max</li>
+							<li>Iphone 12 Pro</li>
+							<li>Iphone 12</li>
+							<li>Apple Marketing</li>
+							<li>Apple Engineering</li>
+						</div>
+						<div class="col-lg-2 col-6" style="list-style: none">
+							<h5>usefull link</h5>
+							<li>TESLA</li>
+							<li>SAMSUNG</li>
+							<li>SONY</li>
+							<li>MARCEDES</li>
+							<li>Apple Engineering</li>
+						</div>
+					</div>
+
+					<p class="text-center py-4">Copyright © 2021 Didar-Alam</p>
+				</div>
+			</div>
+		</footer>
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

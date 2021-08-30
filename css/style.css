@@ -1,0 +1,33 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+
+.bg{
+	background-image: url("../images/bg-2.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	
+}
+.bg-image{
+	background-image: url("../images/bg-1.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.product-card{
+	height:650px;
+	width: 350px;
+	border-radius: 15px;
+}
+
+
+.catogory-card{
+	height: 192px;
+	width: 192px;
+	border-radius: 15px;
+}
+
+footer{
+	background-color: #282531;
+}
